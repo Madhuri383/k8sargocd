@@ -5,7 +5,7 @@ metadata:
     run: phonepay
   name: phonepay-deploy
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:
       run: phonepay
